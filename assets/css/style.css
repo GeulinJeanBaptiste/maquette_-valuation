@@ -1,0 +1,261 @@
+/* !!!!!!!!!! RESET !!!!!!!!!! */
+/* !!!!!!!!!! RESET !!!!!!!!!! */
+/* !!!!!!!!!! RESET !!!!!!!!!! */
+/* !!!!!!!!!! RESET !!!!!!!!!! */
+@font-face {
+  font-family: "KumbhSans-VariableFont_wght";
+  src: url(../fonts/KumbhSans-VariableFont_wght.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "KumbhSans-VariableFont_wght", sans-serif;
+}
+body {
+  --docwidth: 90%;
+  --Pale-Orange: #ffe4cf;
+  --color-grey: #646464;
+  --Orange: #ff7d1a;
+  --white: #ffffff;
+  --Pale-Gray: #b4b4b4;
+}
+img,
+input {
+  width: 100%;
+}
+/* !!!!!!!!!! HEADER !!!!!!!!!! */
+/* !!!!!!!!!! HEADER !!!!!!!!!! */
+/* !!!!!!!!!! HEADER !!!!!!!!!! */
+/* !!!!!!!!!! HEADER !!!!!!!!!! */
+header {
+  margin-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  box-shadow: 1px 4px 5px 0px rgba(140, 140, 140, 0.75);
+  -webkit-box-shadow: 1px 4px 5px 0px rgba(140, 140, 140, 0.75);
+  -moz-box-shadow: 1px 4px 5px 0px rgba(140, 140, 140, 0.75);
+}
+header #menu {
+  width: var(--docwidth);
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+#menu #menu_burger {
+  display: flex;
+  align-items: flex-end;
+}
+#menu h1 {
+  font-size: 200%;
+}
+#menu_img,
+#menu_shop {
+  font-size: 25px;
+}
+#menu_ul {
+  display: none;
+}
+#menu_shop {
+  display: flex;
+  align-items: center;
+}
+#menu img {
+  width: 25px;
+}
+#menu #shop,
+#menu #menu_img {
+  padding-right: 0.5rem;
+}
+/* !!!!!!!!!! MAIN !!!!!!!!!! */
+/* !!!!!!!!!! MAIN !!!!!!!!!! */
+/* !!!!!!!!!! MAIN !!!!!!!!!! */
+/* !!!!!!!!!! MAIN !!!!!!!!!! */
+main #skateboarder {
+  display: none;
+}
+main .p_grey {
+  width: var(--docwidth);
+  margin: auto;
+  color: var(--color-grey);
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  font-weight: 700;
+}
+.number .orange {
+  color: var(--Orange);
+  font-weight: 600;
+}
+#card_text .number {
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(228, 228, 228);
+  padding: 0.8rem 0 0.8rem 0;
+  border-radius: 5px;
+  margin: 1rem 0;
+  font-weight: 600;
+}
+#card h2 {
+  padding: 0.5rem 0 0.5rem 0;
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+#card #card_text {
+  width: var(--docwidth);
+  margin: auto;
+}
+#card_text .card_p {
+  color: var(--color-grey);
+}
+#card_text #cart {
+  text-align: center;
+  background-color: var(--Orange);
+  color: var(--white);
+  padding: 0.8rem 0 0.8rem 0;
+  border-radius: 5px;
+  margin-bottom: 2rem;
+}
+#card_text #price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1rem;
+}
+#price .price_0 {
+  display: flex;
+  align-items: center;
+}
+#price .price_1 {
+  font-size: 2rem;
+  font-weight: 500;
+  margin-right: 1rem;
+}
+#price .price_2 {
+  color: var(--Orange);
+  font-size: 1rem;
+  background-color: rgb(255, 228, 178);
+  border-radius: 5px;
+  padding: 0.2rem;
+}
+#price .price_3 {
+  color: var(--Pale-Gray);
+  text-decoration: line-through;
+  font-weight: 600;
+}
+#cart .fa-solid {
+  margin-right: 5px;
+}
+/* !!!!!!!!!! FOOTER !!!!!!!!!! */
+/* !!!!!!!!!! FOOTER !!!!!!!!!! */
+/* !!!!!!!!!! FOOTER !!!!!!!!!! */
+/* !!!!!!!!!! FOOTER !!!!!!!!!! */
+footer {
+  background-color: #ff7d1a;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+footer p {
+  color: var(--white);
+  text-align: center;
+  font-size: 150%;
+}
+footer #social {
+  color: var(--white);
+  display: flex;
+  justify-content: center;
+  letter-spacing: 6px;
+}
+#social div {
+  font-size: 150%;
+}
+
+/* !!!!!!!!!! BP576p !!!!!!!!!! */
+/* !!!!!!!!!! BP576p !!!!!!!!!! */
+/* !!!!!!!!!! BP576p !!!!!!!!!! */
+/* !!!!!!!!!! BP576p !!!!!!!!!! */
+@media screen and (min-width: 576px) {
+  /* !!!!!!!!!! HEADER !!!!!!!!!! */
+  /* !!!!!!!!!! HEADER !!!!!!!!!! */
+  /* !!!!!!!!!! HEADER !!!!!!!!!! */
+  /* !!!!!!!!!! HEADER !!!!!!!!!! */
+  header #menu {
+    align-items: center;
+  }
+  #menu_burger #menu_img {
+    display: none;
+  }
+  #menu_ul {
+    display: initial;
+  }
+  #menu_ul ul {
+    display: flex;
+    list-style-type: none;
+    color: var(--color-grey);
+  }
+  #menu_ul ul li {
+    margin: 0 0.5rem;
+  }
+  /* !!!!!!!!!! MAIN !!!!!!!!!! */
+  /* !!!!!!!!!! MAIN !!!!!!!!!! */
+  /* !!!!!!!!!! MAIN !!!!!!!!!! */
+  /* !!!!!!!!!! MAIN !!!!!!!!!! */
+  main .p_grey {
+    width: 75%;
+    margin: auto;
+  }
+  main #skateboarder {
+    background-image: url(../img/skateboarder.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: block;
+    width: 80%;
+    height: 400px;
+    margin: auto;
+    position: relative;
+  }
+  #skateboarder .skateboarder_p {
+    color: var(--Orange);
+    font-size: 100px;
+    font-weight: 500;
+    position: absolute;
+    bottom: 25px;
+    right: 25px;
+  }
+  main #cards {
+    width: 70%;
+    margin: auto;
+  }
+  #cards #card {
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+    margin-bottom: 10rem;
+  }
+  #card h2 {
+    font-size: 2.8rem;
+  }
+  #card_text #price {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  #cards .card_reverse {
+    flex-direction: row-reverse;
+  }
+  #cards .card_reverse #card_text {
+    margin-right: 1.5rem;
+  }
+  #card img {
+    border-radius: 15px;
+  }
+  #card #card_text {
+    width: 400%;
+    margin-left: 1.5rem;
+  }
+  #cart {
+    box-shadow: 1px 18px 5px -1px rgba(255, 125, 26, 0.13);
+    -webkit-box-shadow: 1px 18px 5px -1px rgba(255, 125, 26, 0.13);
+    -moz-box-shadow: 1px 18px 5px -1px rgba(255, 125, 26, 0.13);
+  }
+}
